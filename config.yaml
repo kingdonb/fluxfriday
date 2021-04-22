@@ -1,0 +1,28 @@
+---
+id: fluxfriday
+base_name: four-flux-friday-fables
+tags:
+- flux
+- fluxcd
+- jenkins
+- gitops
+- eksctl
+- bestpractices
+- presentation
+presentation_date: '2021-04-23'
+presentation_start_time: '2021-04-23T10:00:00-04:00'
+presentation_end_time: '2021-04-23T11:00:00-04:00'
+version: 2021.4.23.0
+licenses: []
+slideshare_id: 
+speaker_deck_id: 
+ustream_id: 
+vimeo_id: 
+youtube_id: 
+author:
+  markup_language: :rd
+  name: Kingdon Barrett
+  email: kingdon@weave.works
+  rubygems_user: yebyen
+  slideshare_user: KingdonBarrett
+  speaker_deck_user: 

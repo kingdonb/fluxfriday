@@ -1,0 +1,32 @@
+= TITLE
+
+# : subtitle
+#    SUBTITLE
+: author
+   Kingdon Barrett
+# : institution
+#    INSTITUTION
+# : content-source
+#    EVENT NAME
+: date
+   2021-04-23
+: allotted-time
+   60m
+: start-time
+   2021-04-23T10:00:00-04:00
+: end-time
+   2021-04-23T11:00:00-04:00
+# : theme
+#    default
+
+= FIRST SLIDE
+
+  * ITEM 1
+  * ITEM 2
+  * ITEM 3
+
+= SECOND SLIDE
+
+  # image
+  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
+  # relative_height = 100

@@ -58,7 +58,8 @@
 
   * What is GitOps?
   * Declarative
-  * Pull-based (('wait'))(or Push-based)
+  * Pull-based (('wait'))
+    * (or Push-based)(('wait'))
   * (('wait'))Revision Control (Git)
   * (('wait'))Automation reconciles (('wait'))(closed loop)
 

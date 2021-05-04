@@ -42,8 +42,8 @@
 = Jenkins + Flux (2/3)
 
   * There is no intersection
-  * Use one tool for one job
-  * Other tool use for other
+  * (('wait'))Use one tool for one job
+  * (('wait'))Other tool use for other
 
 = Jenkins + Flux (3/3)
 
@@ -52,21 +52,40 @@
 = Jenkins + Flux (4/...)
 
   * Not the whole story
+  * There is some new information we can share
 
 = Jenkins + Flux
 
+  * What is GitOps?
+  * Declarative
+  * Pull-based (('wait'))(or Push-based)
+  * (('wait'))Revision Control (Git)
+  * (('wait'))Automation reconciles (('wait'))(closed loop)
+
+= Jenkins + Flux
+
+  * What is GitOps?
+  * Declarative
+  * Pull-based
+  * (('wait'))Image Automation(('wait'))Writes back to Git
+  * (('wait'))Automation reconciles (('wait'))(closed loop)
+
+= Flux
+
   * Image Update Automation
-  * Sortable Image Tags
-  * Select Latest Image By (...)
+  * (('wait'))Sortable Image Tags
+  * (('wait'))Select Latest Image By (...)
 
 = Jenkins + Flux v1
 
   * Latest Image By Build Time
   * (('wait'))Deprecated Feature
+  * (('wait'))Very inefficient implementation
+  * (('wait'))Rate limited by Docker Hub
 
 = Jenkins + Flux v2
 
-  * Latest Image By Build Time
+  * ~Latest Image By Build Time~
   * Deprecated Feature
   * (('wait'))Use Sortable Image Tags
 

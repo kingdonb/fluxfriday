@@ -1,13 +1,13 @@
-= TITLE
+= Four Fables
 
-# : subtitle
-#    SUBTITLE
+: subtitle
+   Four Flux Friday Fables
 : author
    Kingdon Barrett
-# : institution
-#    INSTITUTION
-# : content-source
-#    EVENT NAME
+: institution
+   Weaveworks
+: content-source
+   Flux Friday
 : date
    2021-04-23
 : allotted-time
@@ -19,7 +19,7 @@
 # : theme
 #    default
 
-= FIRST SLIDE
+= Four Flux Fables
 
   * Jenkins + Flux
   * What is GitOps?
@@ -31,3 +31,45 @@
   # image
   # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
   # relative_height = 100
+
+= Jenkins + Flux (1/3)
+
+  * Jenkins-CI
+  * Flux-CD
+  * {::wait/}CI - Build OCI Images
+  * {::wait/}CD - Deploy OCI Images
+
+= Jenkins + Flux (2/3)
+
+  * There is no intersection
+  * Use one tool for one job
+  * Other tool use for other
+
+= Jenkins + Flux (3/3)
+
+  * Thanks for coming to my TED Talk
+
+= Jenkins + Flux (4/...)
+
+  * Not the whole story
+
+= Jenkins + Flux
+
+  * Image Update Automation
+  * Sortable Image Tags
+  * Select Latest Image By (...)
+
+= Jenkins + Flux v1
+
+  * Latest Image By Build Time
+  * {::wait/}Deprecated Feature
+
+= Jenkins + Flux v2
+
+  * Latest Image By Build Time
+  * Deprecated Feature
+  * {::wait/}Use Sortable Image Tags
+
+= Jenkins + Flux
+
+  * How to actually build container images

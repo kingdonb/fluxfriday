@@ -36,8 +36,8 @@
 
   * Jenkins-CI
   * Flux-CD
-  * {::wait/}CI - Build OCI Images
-  * {::wait/}CD - Deploy OCI Images
+  * (('wait'))CI - Build OCI Images
+  * (('wait'))CD - Deploy OCI Images
 
 = Jenkins + Flux (2/3)
 
@@ -62,13 +62,13 @@
 = Jenkins + Flux v1
 
   * Latest Image By Build Time
-  * {::wait/}Deprecated Feature
+  * (('wait'))Deprecated Feature
 
 = Jenkins + Flux v2
 
   * Latest Image By Build Time
   * Deprecated Feature
-  * {::wait/}Use Sortable Image Tags
+  * (('wait'))Use Sortable Image Tags
 
 = Jenkins + Flux
 

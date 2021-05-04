@@ -26,12 +26,6 @@
   * GitOps Hands-On Overview
   * GitOps Best Practices
 
-= SECOND SLIDE
-
-  # image
-  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
-  # relative_height = 100
-
 = Jenkins + Flux (1/3)
 
   * Jenkins-CI
@@ -57,6 +51,10 @@
 = Jenkins + Flux
 
   * What is GitOps?
+  * (('wait'))(according to Flux?)
+
+= Jenkins + Flux
+
   * Declarative
   * Pull-based
     * (or Push-based)(('wait'))
@@ -91,14 +89,18 @@
   * Deprecated Feature
   * (('wait'))Use Sortable Image Tags
 
-= Jenkins + Flux
+= Jenkins
 
   * How to actually build container images
   * In 2016-2020: Use Privileged Pod
   * (('wait'))Assume Kubernetes host runs Docker
-  * (('wait'))Later: buildkitd
+
+= Jenkins (in 2020 and beyond)
+
+  * buildkitd, cli for kubernetes
   * (('wait')) (rootless containers!)
   * (('wait'))unprivileged userns
+  * (('wait'))Most vulnerable kernel code (?)
 
 = Jenkins
 
@@ -107,3 +109,23 @@
 = Jenkins
 
   * Q & A - Audience
+
+= SECOND SLIDE
+
+  # image
+  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
+  # relative_height = 100
+
+= What is GitOps?
+
+  * Intro to GitOps
+  * Slides
+  * https://docs.google.com/presentation/d/137O--3pOy8kAjoHUa2-L0Dctwa9uIF7PQWUcab5Jw0w/edit#slide=id.gd143cf9a61_0_0
+
+= GitOps Hands-On Overview
+
+  * https://eks.handson.flagger.dev/prerequisites/
+
+= GitOps Best Practices
+
+  * https://www.gitops.tech/

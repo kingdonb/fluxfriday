@@ -58,28 +58,29 @@
 
   * What is GitOps?
   * Declarative
-  * Pull-based (('wait'))
+  * Pull-based
     * (or Push-based)(('wait'))
   * (('wait'))Revision Control (Git)
-  * (('wait'))Automation reconciles (('wait'))(closed loop)
+  * (('wait'))Automation reconciles (closed loop)
 
 = Jenkins + Flux
 
   * What is GitOps?
   * Declarative
   * Pull-based
-  * (('wait'))Image Automation(('wait'))Writes back to Git
-  * (('wait'))Automation reconciles (('wait'))(closed loop)
+  * (('wait'))Image Automation - Writes back to Git
+  * (('wait'))Git - Single Source of Truth
 
 = Flux
 
   * Image Update Automation
-  * (('wait'))Sortable Image Tags
   * (('wait'))Select Latest Image By (...)
+  * (('wait'))Sortable Image Tags
 
 = Jenkins + Flux v1
 
-  * Latest Image By Build Time
+  * Select Latest Image By Build Time
+  * (('wait'))Image Layer Metadata (pull)
   * (('wait'))Deprecated Feature
   * (('wait'))Very inefficient implementation
   * (('wait'))Rate limited by Docker Hub
@@ -93,3 +94,16 @@
 = Jenkins + Flux
 
   * How to actually build container images
+  * In 2016-2020: Use Privileged Pod
+  * (('wait'))Assume Kubernetes host runs Docker
+  * (('wait'))Later: buildkitd
+  * (('wait')) (rootless containers!)
+  * (('wait'))unprivileged userns
+
+= Jenkins
+
+  * How are you building images?
+
+= Jenkins
+
+  * Q & A - Audience

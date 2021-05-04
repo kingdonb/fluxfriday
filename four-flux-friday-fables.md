@@ -1,43 +1,43 @@
-= Four Fables
+# Four Fables
 
-: subtitle
-   Four Flux Friday Fables
-: author
-   Kingdon Barrett
-: institution
-   Weaveworks
-: content-source
-   Flux Friday
-: date
-   2021-04-23
-: allotted-time
-   60m
-: start-time
-   2021-04-23T10:00:00-04:00
-: end-time
-   2021-04-23T11:00:00-04:00
-# : theme
-#    default
+subtitle
+:   Four Flux Friday Fables
+author
+:   Kingdon Barrett
 
-= Four Flux Fables
+institution
+:   Weaveworks
+content-source
+:   Flux Friday
+
+date
+:   2021-04-23
+allotted-time
+:   60m
+start-time
+:   2021-04-23T10:00:00-04:00
+end-time
+:   2021-04-23T11:00:00-04:00
+
+# Four Flux Fables
 
   * Jenkins + Flux
   * What is GitOps?
   * GitOps Hands-On Overview
   * GitOps Best Practices
 
-= Jenkins + Flux (1/3)
+# Jenkins + Flux (1/3)
 
   * Jenkins-CI
   * Flux-CD
-  * (('wait'))CI - Build OCI Images
-  * (('wait'))CD - Deploy OCI Images
+  * {::wait/}CI - Build OCI Images
+  * {::wait/}CD - Deploy OCI Images
 
 = Jenkins + Flux (2/3)
 
   * There is no intersection
-  * (('wait'))Use one tool for one job
-  * (('wait'))Other tool use for other
+  * {::wait/}Use one tool for one job
+  * {::wait/}Other tool use for other
 
 = Jenkins + Flux (3/3)
 
@@ -51,56 +51,56 @@
 = Jenkins + Flux
 
   * What is GitOps?
-  * (('wait'))(according to Flux?)
+  * {::wait/}(according to Flux?)
 
 = Jenkins + Flux
 
   * Declarative
   * Pull-based
-    * (or Push-based)(('wait'))
-  * (('wait'))Revision Control (Git)
-  * (('wait'))Automation reconciles (closed loop)
+    * (or Push-based){::wait/}
+  * {::wait/}Revision Control (Git)
+  * {::wait/}Automation reconciles (closed loop)
 
 = Jenkins + Flux
 
   * What is GitOps?
   * Declarative
   * Pull-based
-  * (('wait'))Image Automation - Writes back to Git
-  * (('wait'))Git - Single Source of Truth
+  * {::wait/}Image Automation - Writes back to Git
+  * {::wait/}Git - Single Source of Truth
 
 = Flux
 
   * Image Update Automation
-  * (('wait'))Select Latest Image By (...)
-  * (('wait'))Sortable Image Tags
+  * {::wait/}Select Latest Image By (...)
+  * {::wait/}Sortable Image Tags
 
 = Jenkins + Flux v1
 
   * Select Latest Image By Build Time
-  * (('wait'))Image Layer Metadata (pull)
-  * (('wait'))Deprecated Feature
-  * (('wait'))Very inefficient implementation
-  * (('wait'))Rate limited by Docker Hub
+  * {::wait/}Image Layer Metadata (pull)
+  * {::wait/}Deprecated Feature
+  * {::wait/}Very inefficient implementation
+  * {::wait/}Rate limited by Docker Hub
 
 = Jenkins + Flux v2
 
   * ~Latest Image By Build Time~
   * Deprecated Feature
-  * (('wait'))Use Sortable Image Tags
+  * {::wait/}Use Sortable Image Tags
 
 = Jenkins
 
   * How to actually build container images
   * In 2016-2020: Use Privileged Pod
-  * (('wait'))Assume Kubernetes host runs Docker
+  * {::wait/}Assume Kubernetes host runs Docker
 
 = Jenkins (in 2020 and beyond)
 
   * buildkitd, cli for kubernetes
-  * (('wait')) (rootless containers!)
-  * (('wait'))unprivileged userns
-  * (('wait'))Most vulnerable kernel code (?)
+  * {::wait/} (rootless containers!)
+  * {::wait/}unprivileged userns
+  * {::wait/}Most vulnerable kernel code (?)
 
 = Jenkins
 

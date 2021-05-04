@@ -20,7 +20,7 @@ ustream_id:
 vimeo_id: 
 youtube_id: 
 author:
-  markup_language: :rd
+  markup_language: :markdown
   name: Kingdon Barrett
   email: kingdon@weave.works
   rubygems_user: yebyen

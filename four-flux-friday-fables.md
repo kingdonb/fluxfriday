@@ -19,12 +19,24 @@ start-time
 end-time
 :   2021-04-23T11:00:00-04:00
 
-# Four Flux Fables
+# Four Fabulous Flux Fables
 
   * Jenkins + Flux
   * What is GitOps?
   * GitOps Hands-On Overview
   * GitOps Best Practices
+
+# Jenkins
+
+  * We love using Jenkins
+  * {::wait/}Invested
+  * {::wait/}Use Jenkins for Everything
+
+# Jenkins
+
+  * Pipelines
+  * {::wait/}Workflows
+  * {::wait/}Hogwash
 
 # Jenkins + Flux (1/3)
 
@@ -64,9 +76,8 @@ end-time
 # Jenkins + Flux
 
   * What is GitOps?
-  * Declarative
-  * Pull-based
-  * {::wait/}Image Automation - Writes back to Git
+  * Declarative, Pull-based
+  * {::wait/}Image Automation - Write to Git
   * {::wait/}Git - Single Source of Truth
 
 # Flux
@@ -74,18 +85,43 @@ end-time
   * Image Update Automation
   * {::wait/}Select Latest Image By (...)
   * {::wait/}Sortable Image Tags
+  * {::wait/}{branch}-{sha}-{ts}
+
+# Flux v2
+
+  * image-reflector-controller
+  * {::wait/}image-automation-controller
+
+# Flux v2
+
+  * ImagePolicy
+  * {::wait/}SemVer
+  * {::wait/}Alphabetical (CalVer)
+  * {::wait/}Numerical
+
+# Flux (v2)
+
+  * Tagging/Version
+  * {::wait/}5.2.9 - SemVer (Production)
+  * {::wait/}dev-29abc8fe-997 (Development)
+  * {::wait/}Numerical Build ID
 
 # Jenkins + Flux v1
 
   * Select Latest Image By Build Time
   * {::wait/}Image Layer Metadata (pull)
   * {::wait/}Deprecated Feature
+
+# Jenkins + Flux v1
+
+  * {::wait/}Deprecated Feature
   * {::wait/}Very inefficient implementation
   * {::wait/}Rate limited by Docker Hub
+  * {::wait/}Inflated Image Pull User Numbers
 
 # Jenkins + Flux v2
 
-  * ~Latest Image By Build Time~
+  * ~~Latest Image By Build Time~~
   * Deprecated Feature
   * {::wait/}Use Sortable Image Tags
 
@@ -104,17 +140,29 @@ end-time
 
 # Jenkins
 
+  * Backhanded Letters of Reference
+  * {::wait/}Possibly don't?
+
+# Jenkins
+
   * How are you building images?
+  * {::wait/}Examples
+  * {::wait/}Declarative Jenkinsfile
+  * {::wait/}(privileged pod, assume Docker)
+
+# CI-Cluster
+
+  * Multi-tenancy is hard
+  * {::wait/}Jenkins may break some rules
+  * {::wait/}Separate from Production
 
 # Jenkins
 
   * Q & A - Audience
 
-# SECOND SLIDE
+# Talks
 
-  # image
-  # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
-  # relative_height = 100
+  * More Talks, All Day Long
 
 # What is GitOps?
 

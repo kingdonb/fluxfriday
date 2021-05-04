@@ -30,6 +30,7 @@ end-time
 
   * We love using Jenkins
   * {::wait/}Invested
+  * {::wait/}Ecosystem
   * {::wait/}Use Jenkins for Everything
 
 # Jenkins
@@ -128,20 +129,57 @@ end-time
 # Jenkins
 
   * How to actually build container images
-  * In 2016-2020: Use Privileged Pod
+  * In 2016-2020: Use Privileged Pod, mount /var/run/docker.sock
   * {::wait/}Assume Kubernetes host runs Docker
+  * {::wait/}(no -- bad!)
 
-# Jenkins (in 2020 and beyond)
+# Jenkins (in 2021 and beyond)
 
   * buildkitd, cli for kubernetes
   * {::wait/} (rootless containers!)
   * {::wait/}unprivileged userns
   * {::wait/}Most vulnerable kernel code (?)
 
-# Jenkins
+# CI-Cluster
+
+  * Multi-tenancy is hard
+  * {::wait/}Jenkins may break some rules
+  * {::wait/}Keep Well Separated from Production
+  * {::wait/}Don't feed after midnight, no water
+
+# Laugh Break
+
+  * {::wait/}Backhanded Letters of Reference
+  * {::wait/}“You would be fortunate to get this person to work for you.”
+
+# Laugh Break
 
   * Backhanded Letters of Reference
-  * {::wait/}Possibly don't?
+  * {::wait/}“There is nothing you can teach him.”
+
+# Laugh Break
+
+  * Backhanded Letters of Reference
+  * {::wait/}“I refer him with no qualifications whatsoever.”
+
+# Laugh Break
+
+  * Backhanded Letters of Reference
+  * The Lexicon of Intentionally Ambiguous Recommendations (L.I.A.R.) Paperback – October 1, 2003
+
+# Story Time
+
+  * Jenkins + Flux Tutorial
+  * {::wait/}(Anything) + Flux
+  * {::wait/}GitHub Actions 🥳 🧇
+
+# Jenkins - Build Docker Images
+
+  * {::wait/}Maybe don't?
+  * {::wait/}Jenkins-X
+  * {::wait/}More k8s-centric build tools
+  * {::wait/}You can use it
+  * {::wait/}😩 Weary Face Emoji
 
 # Jenkins
 
@@ -149,12 +187,6 @@ end-time
   * {::wait/}Examples
   * {::wait/}Declarative Jenkinsfile
   * {::wait/}(privileged pod, assume Docker)
-
-# CI-Cluster
-
-  * Multi-tenancy is hard
-  * {::wait/}Jenkins may break some rules
-  * {::wait/}Separate from Production
 
 # Jenkins
 

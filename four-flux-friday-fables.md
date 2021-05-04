@@ -33,27 +33,27 @@ end-time
   * {::wait/}CI - Build OCI Images
   * {::wait/}CD - Deploy OCI Images
 
-= Jenkins + Flux (2/3)
+# Jenkins + Flux (2/3)
 
   * There is no intersection
   * {::wait/}Use one tool for one job
   * {::wait/}Other tool use for other
 
-= Jenkins + Flux (3/3)
+# Jenkins + Flux (3/3)
 
   * Thanks for coming to my TED Talk
 
-= Jenkins + Flux (4/...)
+# Jenkins + Flux (4/...)
 
   * Not the whole story
   * There is some new information we can share
 
-= Jenkins + Flux
+# Jenkins + Flux
 
   * What is GitOps?
   * {::wait/}(according to Flux?)
 
-= Jenkins + Flux
+# Jenkins + Flux
 
   * Declarative
   * Pull-based
@@ -61,7 +61,7 @@ end-time
   * {::wait/}Revision Control (Git)
   * {::wait/}Automation reconciles (closed loop)
 
-= Jenkins + Flux
+# Jenkins + Flux
 
   * What is GitOps?
   * Declarative
@@ -69,13 +69,13 @@ end-time
   * {::wait/}Image Automation - Writes back to Git
   * {::wait/}Git - Single Source of Truth
 
-= Flux
+# Flux
 
   * Image Update Automation
   * {::wait/}Select Latest Image By (...)
   * {::wait/}Sortable Image Tags
 
-= Jenkins + Flux v1
+# Jenkins + Flux v1
 
   * Select Latest Image By Build Time
   * {::wait/}Image Layer Metadata (pull)
@@ -83,49 +83,49 @@ end-time
   * {::wait/}Very inefficient implementation
   * {::wait/}Rate limited by Docker Hub
 
-= Jenkins + Flux v2
+# Jenkins + Flux v2
 
   * ~Latest Image By Build Time~
   * Deprecated Feature
   * {::wait/}Use Sortable Image Tags
 
-= Jenkins
+# Jenkins
 
   * How to actually build container images
   * In 2016-2020: Use Privileged Pod
   * {::wait/}Assume Kubernetes host runs Docker
 
-= Jenkins (in 2020 and beyond)
+# Jenkins (in 2020 and beyond)
 
   * buildkitd, cli for kubernetes
   * {::wait/} (rootless containers!)
   * {::wait/}unprivileged userns
   * {::wait/}Most vulnerable kernel code (?)
 
-= Jenkins
+# Jenkins
 
   * How are you building images?
 
-= Jenkins
+# Jenkins
 
   * Q & A - Audience
 
-= SECOND SLIDE
+# SECOND SLIDE
 
   # image
   # src = https://raw.github.com/rabbit-shocker/rabbit/master/sample/lavie.png
   # relative_height = 100
 
-= What is GitOps?
+# What is GitOps?
 
   * Intro to GitOps
   * Slides
   * https://docs.google.com/presentation/d/137O--3pOy8kAjoHUa2-L0Dctwa9uIF7PQWUcab5Jw0w/edit#slide=id.gd143cf9a61_0_0
 
-= GitOps Hands-On Overview
+# GitOps Hands-On Overview
 
   * https://eks.handson.flagger.dev/prerequisites/
 
-= GitOps Best Practices
+# GitOps Best Practices
 
   * https://www.gitops.tech/
